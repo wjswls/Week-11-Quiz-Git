@@ -1,0 +1,39 @@
+.container {
+  display: grid; 
+  grid-template-columns: 50% 50%; 
+  grid-template-rows: 100px 50%;  
+  gap: 0px 0px; 
+  grid-template-areas: 
+    "grid-title grid-title"
+    "grid-svg grid-svg"
+}
+
+
+h1 {
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont,
+        'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: x-large;
+    color: white;
+    font-weight: lighter;
+}
+
+body {
+    background-color: darkslategray;
+    height:0%;
+}
+
+
+.grid-svg {
+    grid-area: grid-svg;
+    text-align: center;
+}
+
+.grid-title {
+    grid-area: grid-title;
+}
+
+.grid-control {
+    grid-area: grid-control;
+    text-align: center;
+}
